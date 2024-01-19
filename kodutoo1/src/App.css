@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.Button {
+  background-color: green;
+  color: lightgrey;
+}
+
+.Button:hover {
+  background-color: green;
+  height: 100px;
+}
+
+.Button:active {
+  cursor: grab; 
+}
+
+.Text {
+  color: blue;
+  font-style: italic;
+}
+
+.Text:hover {
+  font-size: 24px;
+}
+
+.GreenText {
+  color: green;
+  font-weight: bold;
+  border: 1px solid red;
+}
+
+.GreenText:hover {
+  border-color: brown;
+}
+
+#myImage {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+#myImage:hover {
+  border-radius: 5%;
+  opacity: 0.5;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
